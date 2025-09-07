@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-07T14:14:05 IST" name="E-commerce Website Testing" finished-at="2025-09-07T14:15:09 IST" duration-ms="63622">
+    <groups>
+      <group name="Checkout Process">
+        <method signature="CartCheckoutProcess.VerifyCheckoutProcess()[pri:2, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" name="VerifyCheckoutProcess" class="com.demoblaze.CartCheckoutProcess"/>
+      </group> <!-- Checkout Process -->
+      <group name="LoginAccount">
+        <method signature="UserAccount.UserLogin()[pri:1, instance:com.demoblaze.UserAccount@51931956]" name="UserLogin" class="com.demoblaze.UserAccount"/>
+      </group> <!-- LoginAccount -->
+      <group name="SignUpAccount">
+        <method signature="UserAccount.UserSignUp()[pri:0, instance:com.demoblaze.UserAccount@51931956]" name="UserSignUp" class="com.demoblaze.UserAccount"/>
+      </group> <!-- SignUpAccount -->
+      <group name="Delete From Cart">
+        <method signature="CartCheckoutProcess.VerifyDeletion()[pri:1, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" name="VerifyDeletion" class="com.demoblaze.CartCheckoutProcess"/>
+      </group> <!-- Delete From Cart -->
+      <group name="Add To Cart">
+        <method signature="CartCheckoutProcess.VerifyAddToCart()[pri:0, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" name="VerifyAddToCart" class="com.demoblaze.CartCheckoutProcess"/>
+      </group> <!-- Add To Cart -->
+      <group name="CategoryNavigation">
+        <method signature="ProductDetailsNavigation.CategoryNavigation()[pri:0, instance:com.demoblaze.ProductDetailsNavigation@358c99f5]" name="CategoryNavigation" class="com.demoblaze.ProductDetailsNavigation"/>
+      </group> <!-- CategoryNavigation -->
+      <group name="CheckProductDetails">
+        <method signature="ProductDetailsNavigation.VerifyProductDetails()[pri:1, instance:com.demoblaze.ProductDetailsNavigation@358c99f5]" name="VerifyProductDetails" class="com.demoblaze.ProductDetailsNavigation"/>
+      </group> <!-- CheckProductDetails -->
+    </groups>
+    <test started-at="2025-09-07T14:14:05 IST" name="RunAll_UserAccount" finished-at="2025-09-07T14:14:15 IST" duration-ms="9953">
+      <class name="com.demoblaze.UserAccount">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoblaze.UserAccount@51931956]" started-at="2025-09-07T14:14:05 IST" name="setup" finished-at="2025-09-07T14:14:11 IST" duration-ms="5622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.demoblaze.UserAccount@51931956]" started-at="2025-09-07T14:14:11 IST" name="beforeClass" finished-at="2025-09-07T14:14:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="UserSignUp()[pri:0, instance:com.demoblaze.UserAccount@51931956]" started-at="2025-09-07T14:14:11 IST" name="UserSignUp" finished-at="2025-09-07T14:14:14 IST" duration-ms="2838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserSignUp -->
+        <test-method signature="UserLogin()[pri:1, instance:com.demoblaze.UserAccount@51931956]" started-at="2025-09-07T14:14:14 IST" name="UserLogin" finished-at="2025-09-07T14:14:15 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.demoblaze.UserAccount@51931956]" started-at="2025-09-07T14:14:15 IST" name="afterClass" finished-at="2025-09-07T14:14:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.demoblaze.UserAccount -->
+    </test> <!-- RunAll_UserAccount -->
+    <test started-at="2025-09-07T14:14:15 IST" name="GroupFiltered_ProductDetailsNavigation" finished-at="2025-09-07T14:14:30 IST" duration-ms="14820">
+      <class name="com.demoblaze.ProductDetailsNavigation">
+        <test-method signature="CategoryNavigation()[pri:0, instance:com.demoblaze.ProductDetailsNavigation@358c99f5]" started-at="2025-09-07T14:14:15 IST" name="CategoryNavigation" finished-at="2025-09-07T14:14:27 IST" duration-ms="12237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CategoryNavigation -->
+        <test-method signature="VerifyProductDetails()[pri:1, instance:com.demoblaze.ProductDetailsNavigation@358c99f5]" started-at="2025-09-07T14:14:27 IST" name="VerifyProductDetails" finished-at="2025-09-07T14:14:30 IST" duration-ms="2579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductDetails -->
+      </class> <!-- com.demoblaze.ProductDetailsNavigation -->
+    </test> <!-- GroupFiltered_ProductDetailsNavigation -->
+    <test started-at="2025-09-07T14:14:30 IST" name="RunAll_CartCheckoutProcess" finished-at="2025-09-07T14:15:09 IST" duration-ms="38777">
+      <class name="com.demoblaze.CartCheckoutProcess">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" started-at="2025-09-07T14:14:05 IST" name="beforeSuite" finished-at="2025-09-07T14:14:05 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" started-at="2025-09-07T14:14:30 IST" name="setup" finished-at="2025-09-07T14:14:35 IST" duration-ms="5345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" started-at="2025-09-07T14:14:35 IST" name="beforeClass" finished-at="2025-09-07T14:14:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="VerifyAddToCart()[pri:0, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" started-at="2025-09-07T14:14:35 IST" name="VerifyAddToCart" finished-at="2025-09-07T14:14:44 IST" duration-ms="8318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCart -->
+        <test-method signature="VerifyDeletion()[pri:1, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" started-at="2025-09-07T14:14:44 IST" name="VerifyDeletion" finished-at="2025-09-07T14:14:56 IST" depends-on-methods="com.demoblaze.CartCheckoutProcess.VerifyAddToCart" duration-ms="12432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeletion -->
+        <test-method signature="VerifyCheckoutProcess()[pri:2, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" started-at="2025-09-07T14:14:56 IST" name="VerifyCheckoutProcess" finished-at="2025-09-07T14:15:09 IST" duration-ms="12659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckoutProcess -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" started-at="2025-09-07T14:15:09 IST" name="afterClass" finished-at="2025-09-07T14:15:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demoblaze.CartCheckoutProcess@3b2da18f]" started-at="2025-09-07T14:15:09 IST" name="teardown" finished-at="2025-09-07T14:15:09 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demoblaze.CartCheckoutProcess -->
+    </test> <!-- RunAll_CartCheckoutProcess -->
+  </suite> <!-- E-commerce Website Testing -->
+</testng-results>

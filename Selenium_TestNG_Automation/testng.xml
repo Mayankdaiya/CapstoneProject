@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E-commerce Website Testing" verbose="1">
+
+    <!-- ✅ 1. Run all tests from UserAccount -->
+    <test name="RunAll_UserAccount">
+        <classes>
+            <class name="com.demoblaze.UserAccount"/>
+        </classes>
+    </test>
+
+    <!-- ✅ 2. Run only selected groups from ProductDetailsNavigation -->
+    <test name="GroupFiltered_ProductDetailsNavigation">
+        <groups>
+            <run>
+                <include name="CategoryNavigation"/>
+                <include name="CheckProductDetails"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.demoblaze.ProductDetailsNavigation"/>
+        </classes>
+    </test>
+
+    <!-- ✅ 3. Run all tests from CartCheckoutProcess -->
+    <test name="RunAll_CartCheckoutProcess">
+        <classes>
+            <class name="com.demoblaze.CartCheckoutProcess"/>
+        </classes>
+    </test>
+
+</suite>

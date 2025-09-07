@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="E-commerce Website Testing" verbose="1">
+
+    <test name="SeleniumTestNG Automation">
+        <classes>
+            <class name="com.demoblaze.runners.useraccountRunner"/>
+            <class name="com.demoblaze.runners.productnavigationRunner"/>
+            <class name="com.demoblaze.runners.cartcheckoutRunner"/>
+        </classes>
+    </test>
+</suite>
