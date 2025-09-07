@@ -13,7 +13,7 @@ public class DriverFactory {
 
     public static WebDriver initializeDriver(String browser) {
         if (browser.equalsIgnoreCase("chrome")) {
-//            WebDriverManager.chromedriver().setup();
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
